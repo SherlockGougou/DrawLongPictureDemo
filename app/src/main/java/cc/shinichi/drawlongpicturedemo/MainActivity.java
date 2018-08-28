@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
 
 			final StringBuffer stringBuffer = new StringBuffer();
 			for (String path : mCurrentSelectedPath) {
-				stringBuffer.append(path).append("/n");
+				stringBuffer.append(path).append("\n");
 			}
 
 			runOnUiThread(new Runnable() {
